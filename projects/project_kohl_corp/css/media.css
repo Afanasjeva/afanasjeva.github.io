@@ -1,0 +1,89 @@
+/*********************************************************************************************************************/
+@media screen and (max-width: 1200px){
+    .inner{
+        width: calc(100% - 20px)!important;
+    }
+    .top_left{
+        width: 70%!important;
+    }
+    .top_right{
+        width: 30%!important;
+    }
+}
+/*********************************************************************************************************************/
+@media screen and (max-width: 1100px){
+    .top_left{
+        width: 70%!important;
+    }
+    .top_right{
+        width: 30%!important;
+    }
+    aside{
+        padding-right: 1%!important;
+    }
+}
+/*********************************************************************************************************************/
+@media screen and (max-width: 930px){
+    .top_left{
+        width: 65%!important;
+    }
+    .top_right{
+        width: 35%!important;
+    }
+}
+
+/*********************************************************************************************************************/
+@media screen and (max-width: 768px){
+    .section_top{
+        z-index: 10!important;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .section_top .inner{
+        width: 100%!important;
+    }
+    .top_left{
+        width: 100%!important;
+        height: 40px;
+        padding: 0 10px 0 10px;
+    }
+    .top_right{
+        min-width: 100%!important;
+        background: url(../img/bkg_1.png) repeat-x;
+        height: 40px;
+        margin: 0 0 10px 0;
+        padding: 0 10px 0 10px;
+        position: relative;
+        top: -1px;
+    }
+    .section_main{
+        padding-top: 100px!important;
+    }
+    .nav_icon{
+        display: block!important;
+    }
+    aside{
+        position: fixed!important;
+        left: -100vw;
+        top: 0;
+        width: 100vw!important;
+        height: 100vh!important;
+        transition: .5s;
+        padding: 100px 33.3% 0 33.3%!important;
+        background: url("../img/bkg_main.png") no-repeat right top fixed;
+        background-size: cover;
+        z-index: 0;
+    }
+    article{
+        float: right!important;
+        width: 100%!important;
+        padding: 0!important;
+    }
+}
+/*********************************************************************************************************************/
+@media screen and (max-width: 500px) {
+    aside{
+        padding: 100px 15px 0 33.3%!important;
+    }
+}
