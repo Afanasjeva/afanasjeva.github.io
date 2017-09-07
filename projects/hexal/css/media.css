@@ -1,0 +1,99 @@
+@media only screen and (min-width:1040px){
+	#h0, #h9{
+	    margin-left: 110px;
+	}
+	#h4, #h5, #h6, #h7, #h8, #h9, #h10, #h11, #h12{
+	    margin-top: -30px;
+	}  
+}
+@media only screen and (min-width:840px) and (max-width:1040px){
+	#h0, #h6{
+	    margin-left: 100px;
+	}
+	#h3{
+		margin-left: 200px;
+	}
+	#h3, #h4, #h5, #h6, #h7, #h8, #h9, #h10, #h11, #h12{
+	    margin-top: -30px;
+	}  
+	#h2, #h5, #h8{
+		margin-right: 200px;
+	}
+    .arrow{
+        left: 345px;
+    }
+
+}
+@media only screen and (min-width:480px) and (max-width:840px){
+    #h0, #h3, #h6, #h9, #h12{
+    	margin-left: 50px;
+    }
+    #h1, #h4, #h7, #h10{
+    	margin-right: 200px;
+    }
+    #h2, #h5, #h8, #h11{
+    	margin-left: 150px;
+    	margin-top: -30px;
+    	margin-right: 500px;
+    }
+    .arrow{
+    	left: 195px;
+    }
+    }
+@media only screen and (min-width:350px) and (max-width:480px){
+    #h0, #h2, #h4, #h6, #h8, #h10, #h12{
+    	margin-left: 50px;
+    }
+    #h1, #h3, #h5, #h7, #h9, #h11{
+    	margin-left: 150px;
+    	margin-top: -30px;
+    	margin-right: 500px;
+    }
+    .arrow{
+    	left: 95px;
+    }
+}
+@media only screen and (max-width:350px){
+    #h0, #h2, #h4, #h6, #h8, #h10, #h12,
+    #h1, #h3, #h5, #h7, #h9, #h11{
+    	margin-left: 10px;
+    	margin-top: 10px;
+    	float: none;
+    }
+    .arrow{
+    	left: 55px;
+    }
+}
+@media only screen and (max-width:1040px){
+    .menuLeft,
+    .menuRight{
+    	display: none;
+    }
+    .arrow{
+    	position: absolute;
+    	top: 0px;
+    }
+    .inner{
+        width: 100%;   
+    }
+    body::-webkit-scrollbar{ 
+        display: none; 
+    }
+}
+@media only screen and (max-width:600px)
+{
+ .get_in_touch input[type="text"],
+ .get_in_touch input[type="email"],
+ #ta{
+    width: 90%;
+    }   
+.div_submit{
+    width: 98%;
+    }
+}
+@media only screen and (max-width:800px)
+{
+ .inner{
+    width: 90%;
+    }   
+}

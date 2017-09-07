@@ -1,0 +1,43 @@
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.sprite-soc-1-Facebook {
+    width: 25px;
+    height: 24px;
+    background-position: -5px -5px;
+    
+}
+
+.sprite-soc-2-Twitter {
+    width: 24px;
+    height: 24px;
+    background-position: -40px -5px;
+}
+
+.sprite-soc-3-Google {
+    width: 25px;
+    height: 24px;
+    background-position: -5px -39px;
+}
+
+.sprite-soc-4-Pinterest {
+    width: 24px;
+    height: 24px;
+    background-position: -40px -39px;
+}
+
+.sprite-soc-5-Linkedin {
+    width: 25px;
+    height: 24px;
+    background-position: -74px -5px;
+}
+
+.sprite-soc-6-Dribbble {
+    width: 24px;
+    height: 24px;
+    background-position: -74px -39px;
+}
