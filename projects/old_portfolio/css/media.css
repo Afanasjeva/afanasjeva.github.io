@@ -1,0 +1,45 @@
+@media only screen and (min-width:1200px) {
+    .inner {
+        width: 1200px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .inner{
+        width: 96%;
+    }
+    .header_col{
+        width: 50%;
+    }
+    .portfolio_item{
+        width: 25%;
+    }
+}
+@media only screen and (max-width:900px){
+    .portfolio_item{
+        width: 33.3%;
+    }
+}
+@media only screen and (max-width:700px){
+    .portfolio_item{
+        width: 50%;
+    }
+    .header_col.nav{
+        width: 50%;
+    }
+    nav{
+        display: block;
+
+    }
+}
+@media only screen and (max-width:480px){
+    .portfolio_item{
+        width: 100%;
+    }
+    .header_col{
+        width: 100%;
+        text-align: center;
+    }
+    .content{
+        padding-top: 220px;
+    }
+}
