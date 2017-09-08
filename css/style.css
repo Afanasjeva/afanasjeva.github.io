@@ -2,7 +2,10 @@ body{
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
 }
-.main_link{
+.grid{
+    
+}
+.grid_item{
     display: block;
-
+    width: 20%;
 }
