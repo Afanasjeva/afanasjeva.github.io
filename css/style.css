@@ -12,3 +12,6 @@ body{
     display: block;
     width: 20%;
 }
+.logo{
+   background: var(--color_main);
+}
