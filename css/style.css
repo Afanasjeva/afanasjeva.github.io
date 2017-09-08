@@ -12,6 +12,10 @@ body{
     display: block;
     width: 20%;
 }
+.grid_item_link{
+   display: block;
+   text-decoration: none;
+}
 .logo{
    background: var(--color_main);
 }
