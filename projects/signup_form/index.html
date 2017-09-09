@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joblite sign up</title>
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/tFormer/tFormer.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <section class="signup_form_section">
+        <div class="inner">
+            <div class="signup_form_logo_wrapper">
+                <img src="images/joblite_logo.png" alt="Joblite logo" title="Joblite logo" class="signup_form_logo">
+            </div>
+            <h1 class="signup_form_title">
+                Set up your Joblite account
+            </h1>
+
+            <form  id="signup_form" action="" class="signup_form">
+                <div class="form_inner">
+                    <div class="form_group">
+                        <label class="form_group_label">name</label>
+                        <input class="form_group_input valid" type="text" placeholder="name">
+                        <span></span>
+                    </div>
+                    <div class="form_group">
+                        <label class="form_group_label">e-mail</label>
+                        <input class="form_group_input invalid" type="email" placeholder="email">
+                        <span></span>
+                    </div>
+                    <div class="form_group">
+                        <label class="form_group_label">passwort</label>
+                        <input class="form_group_input password invalid" type="password" placeholder="password">
+                        <span></span>
+                    </div>
+                    <div class="form_group">
+                        <label class="form_group_label">passwort bestätigung</label>
+                        <input class="form_group_input password valid" type="password" placeholder="password">
+                        <span></span>
+                    </div>
+                    <div class="form_group">
+                        <select class="form_select" name="" id="">
+                            <option value="english">english</option>
+                            <option value="deutsch">deutsch</option>
+                            <option value="русский">русский</option>
+                        </select>
+                    </div>
+                    
+                    <input type="text" name="zip" data-rules="a1 l=5" />
+                    <input type="text" name="email" data-rules="* @" />
+                    <button type="submit" class="signup_form_submit_btn">setup new account <span>&rarr;</span></button>
+                </div>
+            </form>
+
+            <div class="login_link_wrapper">
+                <a href="#" class="signup_form_section_link login_link">
+                    already have an account? login in here
+                </a>
+            </div>
+            <div class="help_link_wrapper">
+                <a href="" class="signup_form_section_link help_link">
+                    need help?
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="inner">
+            <div class="footer_link_btn_wrapper">
+                <a class="footer_link_btn" href="http://joblite.el-look.com/">
+                    website
+                    <span class="footer_link_btn_arrow">
+                        &rarr;
+                    </span>
+                </a>
+            </div>
+            <ul class="footer_menu">
+                <li class="footer_menu_item">
+                    <a href="" class="footer_menu_item_link">
+                        Welcome
+                    </a>
+                </li>
+                <li class="footer_menu_item">
+                    <a href="" class="footer_menu_item_link">
+                        Tour
+                    </a>
+                </li>
+                <li class="footer_menu_item">
+                    <a href="" class="footer_menu_item_link">
+                        Use cases
+                    </a>
+                </li>
+                <li class="footer_menu_item">
+                    <a href="" class="footer_menu_item_link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <div class="footer_copyright">
+                &copy; 2011-2016 &ndash; Joblite is a product  from <span>eyelabel</span>. All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
