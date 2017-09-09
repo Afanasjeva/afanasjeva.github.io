@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df17f5cb-08cf-45fb-af62-82902d9787e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/signup_form/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/signup_form/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/signup_form/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/signup_form/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="35" column="89" lean-forward="false" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -88,6 +96,7 @@
       <find>makeorder</find>
       <find>orderMake</find>
       <find>ordermake</find>
+      <find>red</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,7 +114,6 @@
         <option value="$PROJECT_DIR$/projects/sliding_bocks/index.html" />
         <option value="&lt;a5a291e9-e758-40d6-a31e-eab4cce2fc2a&gt;/migis.org/www/design/migis_2017/html/main.tpl" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="&lt;2b5062f4-fcd0-45df-a0de-e08778dfe133&gt;/public_html/design/Mobile/html/product.tpl" />
         <option value="&lt;2b5062f4-fcd0-45df-a0de-e08778dfe133&gt;/public_html/design/Mobile/css/product.css" />
@@ -142,6 +150,7 @@
         <option value="$PROJECT_DIR$/projects/signup_form/js/script.js" />
         <option value="$PROJECT_DIR$/projects/signup_form/index.html" />
         <option value="$PROJECT_DIR$/projects/signup_form/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -316,7 +325,7 @@
       <workItem from="1497258599668" duration="6000" />
       <workItem from="1497258606535" duration="2688000" />
       <workItem from="1504872397328" duration="67000" />
-      <workItem from="1504872465819" duration="24687000" />
+      <workItem from="1504872465819" duration="24823000" />
     </task>
     <task id="LOCAL-00001" summary="added div">
       <created>1497097330318</created>
@@ -346,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504873848949</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added div">
+      <created>1504956972865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504956972866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36435000" />
+    <option name="totallyTimeSpent" value="36571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,14 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/signup_form/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -533,6 +541,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="89" lean-forward="false" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
           <folding />
         </state>
       </provider>
