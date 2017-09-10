@@ -61,7 +61,11 @@ $(function(){
                 $('.signup_form_submit_btn').attr('disabled', true);
                 email.removeClass('valid');
                 email.addClass('invalid');
-                email.insertAfter( $( "label.invalid" ).text(emailText) );
+                if (email.siblings('label').width==0){
+                    email.insertAfter( $( "label.invalid" ).text(emailText) );
+                }else{
+                    email.siblings('label').text(emailText);
+                }
             }
         }else{
             emailText = 'Email is required';
