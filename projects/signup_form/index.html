@@ -9,7 +9,8 @@
     <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/tFormer/tFormer.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>
@@ -22,52 +23,72 @@
                 Set up your Joblite account
             </h1>
 
-            <form  id="signup_form" action="" class="signup_form">
+            <form  id="signup_form" class="signup_form">
                 <div class="form_inner">
                     <div class="form_group">
-                        <label class="form_group_label">name</label>
-                        <input class="form_group_input valid" type="text" placeholder="name">
-                        <span></span>
+                        <div class="form_group_label">name</div>
+                        <input id="name"
+                               class="form_group_input name"
+                               type="text"
+                               placeholder="name"
+                               name="name"
+                               minlength="2"
+                               title="enter your name">
+                        <span class="form_input_info"></span>
                     </div>
                     <div class="form_group">
-                        <label class="form_group_label">e-mail</label>
-                        <input class="form_group_input invalid" type="email" placeholder="email">
-                        <span></span>
+                        <div class="form_group_label">e-mail</div>
+                        <input id="email"
+                               class="form_group_input email"
+                               type="email"
+                               placeholder="email"
+                               name="email"
+                               title="enter e-mail">
+                        <span class="form_input_info"></span>
                     </div>
                     <div class="form_group">
-                        <label class="form_group_label">passwort</label>
-                        <input class="form_group_input password invalid" type="password" placeholder="password">
-                        <span></span>
+                        <div class="form_group_label">passwort</div>
+                        <input id="password_1"
+                               class="form_group_input password_1"
+                               type="password"
+                               placeholder="password"
+                               name="password_1"
+                               title="enter password"
+                               autocomplete="false">
+                        <span class="form_input_info"></span>
                     </div>
                     <div class="form_group">
-                        <label class="form_group_label">passwort bestätigung</label>
-                        <input class="form_group_input password valid" type="password" placeholder="password">
-                        <span></span>
+                        <div class="form_group_label">passwort bestätigung</div>
+                        <input id="password_2"
+                               class="form_group_input password_2"
+                               type="password"
+                               placeholder="password"
+                               name="password_2"
+                               title="enter password again"
+                               autocomplete="false">
+                        <span class="form_input_info"></span>
                     </div>
                     <div class="form_group">
-                        <select class="form_select" name="" id="">
-                            <option value="english">english</option>
-                            <option value="deutsch">deutsch</option>
-                            <option value="русский">русский</option>
-                        </select>
+                        <div class="form_select_wrapper">
+                            <select class="form_select"
+                                    name="language"
+                                    id="language"
+                                    title="Select language">
+                                <option value="english">english</option>
+                                <option value="deutsch">deutsch</option>
+                                <option value="русский">русский</option>
+                            </select>
+                        </div>
                     </div>
-                    
-                    <input type="text" name="zip" data-rules="a1 l=5" />
-                    <input type="text" name="email" data-rules="* @" />
-                    <button type="submit" class="signup_form_submit_btn">setup new account <span>&rarr;</span></button>
+                    <button disabled type="submit" class="signup_form_submit_btn">setup new account <span>&rarr;</span></button>
                 </div>
             </form>
-
-            <div class="login_link_wrapper">
-                <a href="#" class="signup_form_section_link login_link">
-                    already have an account? login in here
-                </a>
-            </div>
-            <div class="help_link_wrapper">
-                <a href="" class="signup_form_section_link help_link">
-                    need help?
-                </a>
-            </div>
+            <a href="#" class="signup_form_section_link login_link">
+                already have an account? login in here
+            </a>
+            <a href="#" class="signup_form_section_link help_link">
+                need help?
+            </a>
         </div>
     </section>
     <footer>

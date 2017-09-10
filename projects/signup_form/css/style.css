@@ -29,9 +29,6 @@ body{
     text-align: center;
     margin: 0 0 80px 0;
 }
-.signup_form_logo{
-
-}
 .signup_form_title{
     text-align: center;
     color: var(--color_text_dark_grey);
@@ -39,7 +36,7 @@ body{
     letter-spacing: 1px;
 }
 .signup_form{
-    padding: 70px 45px;
+    padding: 70px 0;
 }
 .form_inner{
     width: 255px;
@@ -68,42 +65,63 @@ body{
     text-transform: uppercase;
     border-radius: 3px;
     border: 1px solid var(--color_text_dark_grey);
-    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.2);
     background-color: var(--color_bkg_light_grey);
+    outline: none;
 }
-.form_group_input + span{
-}
-.form_group_input + span:before,
-.form_group_input + span:after{
+/************************************************************************************************form_input_info***/
+.form_input_info{
     position: absolute;
+    white-space: nowrap;
+    left: calc(100% + 1px);
+    top: calc(50% - 5px);
+    height: 10px;
+    width: auto;
+    letter-spacing: 1px;
+    color: var(--color_red);
 }
-.form_group_input + span:before{
+.form_input_info:before{
+    position: absolute;
     width: 14px;
     height: 14px;
     right: -30px;
     top: calc(50% + 7px);
 }
-.form_group_input.valid + span:before{
+.form_group_input.valid + .form_input_info:before,
+.form_group_input.valid + label + .form_input_info:before{
     content:'';
     background: url(../images/singup_form_check.png) no-repeat center center;
 }
-.form_group_input.invalid + span:before{
+.form_group_input:invalid + .form_input_info:before{
     content:'';
     background: url(../images/singup_form_alert.png) no-repeat center center;
 }
-.form_group_input.password.invalid + span:after{
-    content:'Passwords are not consistent';
-    right: -260px;
-    top: calc(50% + 4px);
-    color: var(--color_red);
-    letter-spacing: 1px;
+.form_group_input.invalid + label + .form_input_info:before{
+    content:'';
+    background: url(../images/singup_form_alert.png) no-repeat center center;
 }
-/******/
+.form_group_input:invalid{
+    border-color: var(--color_red);
+}
+.form_group_input.invalid{
+    border-color: var(--color_red);
+}
+/***********************************************************************************************************label*/
+label.invalid{
+    position: absolute;
+    white-space: nowrap;
+    left: calc(100% + 45px);
+    top: calc(50% + 5px);
+    height: 10px;
+    width: auto;
+    letter-spacing: 1px;
+    color: var(--color_red);
+}
+/*********************************************************************************************************************/
 .form_group_input::placeholder{
     color: var(--color_text_lighter_grey);
 }
 .form_select{
-    position: relative;
     width: 100%;
     height: 38px;
     line-height: 38px;
@@ -115,6 +133,23 @@ body{
     -webkit-appearance: none;
     border-radius: 3px;
     padding-left: 45px;
+    cursor: pointer;
+    outline: none;
+}
+.form_select_wrapper{
+    position: relative;
+}
+.form_select_wrapper:before{
+    position: absolute;
+    content: '';
+    left: 14px;
+    top: calc(50% - 5px);
+    width: 12px;
+    height: 10px;
+    background: url(../images/singup_form_select.png) no-repeat center center;
+}
+.form_select_wrapper:hover:before{
+    top: calc(50% - 4px);
 }
 .signup_form_submit_btn{
     background: var(--color_green);
@@ -129,12 +164,50 @@ body{
     width: 100%;
     cursor: pointer;
     padding: 0 36px;
+    outline: none;
+}
+.signup_form_submit_btn:disabled{
+    cursor: not-allowed;
 }
 .signup_form_submit_btn span{
     position: relative;
 }
-.signup_form_submit_btn:hover span{
+.signup_form_submit_btn:not(:disabled):hover span{
     left: 3px;
+}
+.signup_form_section_link{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+.signup_form_section_link:hover{
+    text-decoration: none;
+}
+.login_link{
+    margin: 0 0 60px 0;
+    color: var(--color_text_lighter_grey);
+}
+.help_link{
+    color: var(--color_text_dark_grey);
+}
+/********************************************************************************************form_error*/
+.form_error{
+    position: relative;
+    top: -25px;
+    left: calc(100% + 10px);
+    width: auto;
+    height: 100%;
+    color: var(--color_red);
+    white-space: nowrap;
+}
+.form_error:before{
+    content:'';
+    position: absolute;
+    top: calc(50% - 5px);
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    background: url(../images/singup_form_alert.png) no-repeat center center;
 }
 /************************************************************************************************footer*/
 footer{
@@ -191,4 +264,22 @@ footer{
 }
 .footer_copyright span{
     text-transform: uppercase;
+}
+/*******************************************************************************************************MEDIA*/
+@media(max-width: 500px){
+    .inner{
+        width: 90vw;
+    }
+    .form_group{
+        margin-bottom: 43px;
+    }
+    .form_input_info:before{
+        right: -18px;
+    }
+    label.invalid{
+        white-space: nowrap;
+        left: 0;
+        top: calc(100% + 10px);
+        font-size: .8rem;
+    }
 }
