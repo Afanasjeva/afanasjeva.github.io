@@ -1,7 +1,7 @@
 :root{
-    --color_red: #de4d5f;
+    --color_red: #d30f27;
     --color_green: #02d047;
-    --color_blue: #4a90cc;
+    --color_blue: #488fcb;
     --color_text_footer: #888888;
     --color_text_grey: #464646;
     --color_text_dark_grey: #262626;
@@ -73,35 +73,29 @@ body{
 .form_input_info{
     position: absolute;
     white-space: nowrap;
-    left: calc(100% + 1px);
-    top: calc(50% - 5px);
-    height: 10px;
+    left: calc(100% + 50px);
+    top: calc(50% + 3px);
     width: auto;
+    min-width: 1px;
+    height: 10px;
     letter-spacing: 1px;
     color: var(--color_red);
+    font-weight: bold;
 }
 .form_input_info:before{
     position: absolute;
-    width: 14px;
-    height: 14px;
-    right: -30px;
-    top: calc(50% + 7px);
+    width: 12px;
+    height: 10px;
+    left: -30px;
+    top: 6px;
 }
-.form_group_input.valid + .form_input_info:before,
-.form_group_input.valid + label + .form_input_info:before{
+.form_group_input.valid + .form_input_info:before{
     content:'';
     background: url(../images/singup_form_check.png) no-repeat center center;
 }
-.form_group_input:invalid + .form_input_info:before{
+.form_group_input.invalid + .form_input_info:before{
     content:'';
     background: url(../images/singup_form_alert.png) no-repeat center center;
-}
-.form_group_input.invalid + label + .form_input_info:before{
-    content:'';
-    background: url(../images/singup_form_alert.png) no-repeat center center;
-}
-.form_group_input:invalid{
-    border-color: var(--color_red);
 }
 .form_group_input.invalid{
     border-color: var(--color_red);
@@ -166,8 +160,15 @@ label.invalid{
     padding: 0 36px;
     outline: none;
 }
+input:disabled,
 .signup_form_submit_btn:disabled{
     cursor: not-allowed;
+    opacity: .8;
+}
+input:focus,
+select:focus,
+.signup_form_submit_btn:focus{
+   box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
 }
 .signup_form_submit_btn span{
     position: relative;
@@ -266,20 +267,29 @@ footer{
     text-transform: uppercase;
 }
 /*******************************************************************************************************MEDIA*/
-@media(max-width: 500px){
-    .inner{
-        width: 90vw;
-    }
+@media(max-width: 800px){
     .form_group{
         margin-bottom: 43px;
     }
-    .form_input_info:before{
-        right: -18px;
-    }
-    label.invalid{
-        white-space: nowrap;
+    .form_input_info {
         left: 0;
-        top: calc(100% + 10px);
+        top: calc(100% + 5px);
+        font-size: .9rem;
+    }
+    .form_input_info:before {
+        left: -20px;
+        top: -35px;
+    }
+}
+@media(max-width: 500px){
+    .inner{
+        width: 94vw;
+    }
+}
+@media(max-width: 320px){
+    .form_input_info {
+        left: 0;
+        top: calc(100% + 5px);
         font-size: .8rem;
     }
 }

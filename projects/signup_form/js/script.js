@@ -1,76 +1,69 @@
 $(function(){
-    $("#signup_form").validate({
-        rules:{
-            name:{
-                required: true,
-                minlength: 2,
-                maxlength: 20
-            },
-           /* email:{
-                required: true,
-                email: true
-            },*/
-            password_1: {
-                required: true,
-                minlength: 6
-            },
-            password_2: {
-                required: true,
-                minlength: 6,
-                equalTo: "#password_1"
-            }
-        },
 
-        messages:{
-            name:{
-                required: "This field is required",
-                minlength: "Name should be longer than 1 character",
-                maxlength: "Name should be shorter than 20 character"
-            },
-            /*email:{
-                required: "This field is required",
-                email: "E-mail should be valid"
-            },*/
-            password_1:{
-                required: "This field is required",
-                minlength: "Password should be at least 6 characters"
-            },
-            password_2:{
-                required: "This field is required",
-                minlength: "Password should be at least 6 characters",
-                equalTo: "Passwords are not consistent"
-            }
-        },
-        errorClass: "invalid",
-        validClass: "valid"
-    });
+    var setStatus = function(element, elementClassAdd, elementClassRemove, infoText){
+        var infoBlock = element.siblings('.form_input_info');
+        // $('.signup_form_submit_btn').attr('disabled', btnAttrDisabled);
+        element.addClass(elementClassAdd);
+        element.removeClass(elementClassRemove);
+        infoBlock.text(infoText);
+    };
 
-    var email_pattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    var email = $('.email'),
-        emailText;
-
-    email.on('blur',function(){
-        if(email.val() != ''){
-            if(email.val().search(email_pattern) == 0){
-                emailText = "";
-                $('.signup_form_submit_btn').attr('disabled', false);
-                email.removeClass('invalid');
-                email.addClass('valid');
-            }else{
-                emailText = "Email address should be valid";
-                $('.signup_form_submit_btn').attr('disabled', true);
-                email.removeClass('valid');
-                email.addClass('invalid');
-                if (email.siblings('label').width==0){
-                    email.insertAfter( $( "label.invalid" ).text(emailText) );
+    var validateInput = function(element, pattern, message_empty, message_invalid){
+        element.on('input keyup',function(){
+            if(element.val() != ''){
+                if(element.val().search(pattern) == 0){
+                    setStatus(element, 'valid', 'invalid', '');
                 }else{
-                    email.siblings('label').text(emailText);
+                    setStatus(element, 'invalid', 'valid', message_invalid);
                 }
+            }else{
+                setStatus(element, 'invalid', 'valid', message_empty);
             }
-        }else{
-            emailText = 'Email is required';
+        });
+    };
+
+    var email = $('.email');
+    var email_pattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    validateInput(email, email_pattern, 'Email is required', 'Email address should be valid');
+
+    var name = $('.name');
+    var name_pattern = /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u;
+    validateInput(name, name_pattern, 'Name is required', 'Name is probably incorrect');
+
+    var password = $('.password'),
+        password_1 = $('.password_1'),
+        password_2 = $('.password_2'),
+        password_pattern = '.{6,}';
+    validateInput(password_1, password_pattern, 'Password is required', 'Minimum 6 characters');
+    password_1.on('blur',function(){
+       if(password_1.hasClass('valid')){
+           password_2.attr('disabled',false);
+       }
+    });
+    password_1.on('input keydown',function(e){
+        if(e.which == 9){
+            if(password_1.hasClass('valid')){
+                password_2.attr('disabled',false);
+            }
         }
     });
+    password_2.on('input keyup',function(){
+        if (password_2.val() != password_1.val()){
+            setStatus(password, 'invalid', 'valid', 'Passwords are not consistent');
+        }else{
+            setStatus(password, 'valid', 'invalid', '');
+
+        }
+    });
+
+    $('.form_group_input').on('input keypressed',function(){
+        if (email.hasClass('valid') && name.hasClass('valid') && password_2.hasClass('valid')){
+            $('.signup_form_submit_btn').attr('disabled',false)
+        } else {
+            $('.signup_form_submit_btn').attr('disabled',true)
+        }
+    });
+// ***
     $("#signup_form").on('submit',function(e){
         e.preventDefault();
         var signup_form_data = $(this).serialize();
@@ -91,6 +84,7 @@ $(function(){
             },
             complete: function(signup_form_data) {
                 console.log('complete: ' + signup_form_data);
+                alert('ajax is complete')
             }
         });
     });
