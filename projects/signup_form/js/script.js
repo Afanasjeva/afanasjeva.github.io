@@ -1,10 +1,8 @@
 $(function(){
-
-    var setStatus = function(element, elementClassAdd, elementClassRemove, infoText){
+    var setStatus = function(element, elementClassAdd, infoText){
         var infoBlock = element.siblings('.form_input_info');
-        // $('.signup_form_submit_btn').attr('disabled', btnAttrDisabled);
+        element.removeClass('invalid').removeClass('valid');
         element.addClass(elementClassAdd);
-        element.removeClass(elementClassRemove);
         infoBlock.text(infoText);
     };
 
@@ -12,12 +10,12 @@ $(function(){
         element.on('input keyup',function(){
             if(element.val() != ''){
                 if(element.val().search(pattern) == 0){
-                    setStatus(element, 'valid', 'invalid', '');
+                    setStatus(element, 'valid', '');
                 }else{
-                    setStatus(element, 'invalid', 'valid', message_invalid);
+                    setStatus(element, 'invalid', message_invalid);
                 }
             }else{
-                setStatus(element, 'invalid', 'valid', message_empty);
+                setStatus(element, 'invalid', message_empty);
             }
         });
     };
@@ -35,10 +33,20 @@ $(function(){
         password_2 = $('.password_2'),
         password_pattern = '.{6,}';
     validateInput(password_1, password_pattern, 'Password is required', 'Minimum 6 characters');
+
+    var passwordsMatchCheckout =  function(){
+        if (password_2.val() != password_1.val()){
+            setStatus(password, 'invalid', 'Passwords are not consistent');
+        }else{
+            setStatus(password, 'valid', '');
+        }
+    };
+
     password_1.on('blur',function(){
        if(password_1.hasClass('valid')){
            password_2.attr('disabled',false);
        }
+        passwordsMatchCheckout();
     });
     password_1.on('input keydown',function(e){
         if(e.which == 9){
@@ -46,14 +54,10 @@ $(function(){
                 password_2.attr('disabled',false);
             }
         }
+        passwordsMatchCheckout();
     });
     password_2.on('input keyup',function(){
-        if (password_2.val() != password_1.val()){
-            setStatus(password, 'invalid', 'valid', 'Passwords are not consistent');
-        }else{
-            setStatus(password, 'valid', 'invalid', '');
-
-        }
+        passwordsMatchCheckout();
     });
 
     $('.form_group_input').on('input keypressed',function(){
@@ -63,7 +67,7 @@ $(function(){
             $('.signup_form_submit_btn').attr('disabled',true)
         }
     });
-// ***
+
     $("#signup_form").on('submit',function(e){
         e.preventDefault();
         var signup_form_data = $(this).serialize();
