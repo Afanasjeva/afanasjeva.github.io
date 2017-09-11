@@ -71,9 +71,7 @@ $(function(){
     $("#signup_form").on('submit',function(e){
         e.preventDefault();
         var signup_form_data = $(this).serialize();
-        var xhr = new XMLHttpRequest();
         console.log(signup_form_data);
-        console.log('xhr: ',xhr);
         $.ajax({
             type: 'POST',
             url: 'signup_form_res.php',
@@ -81,7 +79,7 @@ $(function(){
             success: function(signup_form_data) {
                 console.log('result: ' + signup_form_data);
             },
-            error:  function(xhr, str){
+            error:  function(xhr){
                 console.log('Возникла ошибка: ' + xhr.status + ': ' + xhr.statusText);
                 console.log('xhr: ',xhr);
 
