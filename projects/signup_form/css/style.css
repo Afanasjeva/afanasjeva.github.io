@@ -129,6 +129,7 @@ label.invalid{
     padding-left: 45px;
     cursor: pointer;
     outline: none;
+    background: #fff!important;
 }
 .form_select_wrapper{
     position: relative;
