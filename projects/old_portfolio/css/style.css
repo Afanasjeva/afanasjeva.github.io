@@ -86,6 +86,8 @@ nav{
 }
 .header_name{
     font-weight: 900;
+    position: relative;
+    top: -5px;
 }
 .header_name,
 .header_prof{
