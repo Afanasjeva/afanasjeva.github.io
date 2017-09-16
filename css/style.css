@@ -1,9 +1,13 @@
 :root{
-   --color_main: #955251;
+   /*--color_main: #955251;*/
+   --color_main: #ffed27;
 }
 body{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'Roboto Mono';
+    font-size: 22px;
+    background: #a9a9a9;
+    color: #333;
+    line-height: 1.5;
 }
 .grid{
     
@@ -11,12 +15,69 @@ body{
 .grid_item{
     display: block;
     width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.grid_item_vertical{
+    display: block;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0!important;
+}
+.grid_item_vertical_item{
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
 }
 .grid_item_link{
    display: block;
    text-decoration: none;
 }
 .logo{
-   background:  #955251;
+   background: var(--color_main);
+   color: #000;
+}
+.logo_name{
+    font-size: 2rem;
+}
+.filter{
+    background: #000;
+}
+.filter_link,
+.filter_link:active,
+.filter_link:visited{
+    display: block;
+    color: var(--color_main);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.filter_link:hover{
     color: #fff;
 }
+.social_link,
+.menu_link{
+    color: #000;
+    font-size: 1.5rem;
+    display: inline-block;
+    line-height: 1;
+    margin-right: 0.2em;
+    -moz-transition: .2s color;
+    -webkit-transition: .2s color;
+    -ms-transition: .2s color;
+    -o-transition: .2s color;
+    transition: .2s color;
+    text-decoration: none;
+}
+.social_link:hover,
+.menu_link{
+    color: #555;
+}
+.grid_item_menu{
+    background: var(--color_main);
+}
+.menu{
+
+}
+
