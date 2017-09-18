@@ -9,14 +9,13 @@ body{
     color: #333;
     line-height: 1.5;
 }
-.grid{
-    
-}
 .grid_item{
+    position: relative;
     display: block;
     width: 20%;
     padding: 20px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .grid_item_vertical{
     display: block;
@@ -34,6 +33,8 @@ body{
 .grid_item_link{
    display: block;
    text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 .logo{
    background: var(--color_main);
@@ -59,9 +60,8 @@ body{
 .social_link,
 .menu_link{
     color: #000;
-    font-size: 1.5rem;
-    display: inline-block;
-    line-height: 1;
+    font-size: 1.3rem;
+    display: block;
     margin-right: 0.2em;
     -moz-transition: .2s color;
     -webkit-transition: .2s color;
@@ -70,14 +70,63 @@ body{
     transition: .2s color;
     text-decoration: none;
 }
+.social_link{
+    display: inline-block;
+}
 .social_link:hover,
-.menu_link{
+.menu_link:hover{
     color: #555;
+}
+.copyrightlink{
+    font-size: 2.1rem;
+    position: relative;
+    top: 2px;
 }
 .grid_item_menu{
     background: var(--color_main);
 }
-.menu{
+.caption{
+    position: absolute;
+    padding: 0 20px;
+    box-sizing: border-box;
+    left: 0;
+    bottom: -100%;
+    transition: .3s;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+}
+.grid_item:hover .caption{
+    bottom: 0;
+}
+.caption_title{
+    color: var(--color_main);
+    font-size: 1rem;
+    font-weight: 100;
+    transition: .3s;
+}
+.caption_description{
+    color: #888;
+    font-size: .85rem;
+}
+.images_container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image{
+    min-width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: .3s;
+}
+.grid_item:hover .image{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 
 }
-

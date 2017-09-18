@@ -1,0 +1,20 @@
+@media (max-width: 991px){
+    .grid_item{
+        width: 25%;
+    }
+}
+@media (max-width: 768px){
+    .grid_item{
+        width: 33.3%;
+    }
+}
+@media (max-width: 600px){
+    .grid_item{
+        width: 50%;
+    }
+}
+@media (max-width: 320px){
+    .grid_item{
+        width: 100%;
+    }
+}

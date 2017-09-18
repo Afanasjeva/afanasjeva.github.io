@@ -10,7 +10,10 @@ $(function(){
         $('.grid_item').each(function() {
             $(this).height($(this).width());
         });
-        $('.grid').isotope('shuffle');
+        $('.grid_item_vertical').each(function() {
+            $(this).height($(this).width()*2);
+        });
+        // $('.grid').isotope('shuffle');
     });
     $('.grid').isotope({
       itemSelector: '.grid_item',
@@ -27,6 +30,5 @@ $(function(){
             selector = selector + ', .corner_stamp'
         }
         $('.grid').isotope({ filter: selector });
-
     });
 });
