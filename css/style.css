@@ -1,5 +1,4 @@
 :root{
-   /*--color_main: #955251;*/
    --color_main: #ffed27;
 }
 body{
@@ -129,4 +128,14 @@ body{
 .grid_item:hover .image{
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
+}
+/*****************************************************color_link*/
+.color_item{
+    text-align: right;
+    margin: 10px 0;
+}
+.color_link{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
 }
