@@ -16,6 +16,7 @@ body{
     padding: 20px;
     box-sizing: border-box;
     overflow: hidden;
+    margin: 0;
 }
 .grid_item_vertical{
     display: block;
@@ -128,5 +129,4 @@ body{
 .grid_item:hover .image{
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
-
 }

@@ -149,6 +149,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="tkani00.ftp.ukraine.com.ua">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
   </component>
 </project>

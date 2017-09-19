@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df17f5cb-08cf-45fb-af62-82902d9787e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_3dsolutions.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_50X.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_form_validation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_hexal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_js_arrays.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_kohl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_migis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_old_portfolio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_pixsell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/responsive.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ep_naturalblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ep_naturalwhite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/navy_blue.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,30 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+            <state relative-caret-position="161">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/responsive.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="87">
               <caret line="162" column="28" lean-forward="false" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -79,8 +54,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,36 +72,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hover</find>
-      <find>.block</find>
-      <find>menu</find>
-      <find>news_item_content</find>
-      <find>#main</find>
-      <find>section</find>
-      <find>header_middle</find>
-      <find>#menu</find>
-      <find>read</find>
-      <find>header</find>
-      <find>slim</find>
-      <find>.about_us_block3</find>
-      <find>gift_form_submit</find>
-      <find>gift_callback_notice</find>
-      <find>gift_form</find>
-      <find>.wrap</find>
-      <find>text_500</find>
-      <find>links</find>
-      <find>text_sorry</find>
-      <find>contact</find>
-      <find>logo</find>
-      <find>slider</find>
-      <find>banner</find>
-      <find>fb</find>
-      <find>menu_link</find>
-      <find>item</find>
-      <find>grid_item_link</find>
-      <find>grid_item</find>
-      <find>all</find>
-      <find>flex</find>
+      <find>update_citem</find>
+      <find>cat_switch</find>
+      <find>angle_icon</find>
+      <find>cart_counter</find>
+      <find>fn-pop</find>
+      <find>delet</find>
+      <find>coupon_code</find>
+      <find>delivery_id</find>
+      <find>ajax_remove</find>
+      <find>remove</find>
+      <find>/*popup_cart*/</find>
+      <find>аяксовая</find>
+      <find>500</find>
+      <find>purchase_amount</find>
+      <find>minus</find>
+      <find>fn-product-amount</find>
+      <find>amount_change</find>
+      <find>ajax_change_amount</find>
+      <find>update_item</find>
+      <find>fn-popup_cart</find>
+      <find>purchase_sum</find>
+      <find>cart_informer</find>
+      <find>popup</find>
+      <find>аяксова</find>
+      <find>amount</find>
+      <find>er.tpl</find>
+      <find>popup_cart</find>
+      <find>ajax_chan</find>
+      <find>h1</find>
+      <find>_item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,14 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;1a3d9115-cc6a-4d8c-9c37-c9c90c1e55d8&gt;/public_html/design/MediaStore/css/template_styles.css" />
-        <option value="&lt;1a3d9115-cc6a-4d8c-9c37-c9c90c1e55d8&gt;/public_html/design/MediaStore/html/product.tpl" />
-        <option value="&lt;1a3d9115-cc6a-4d8c-9c37-c9c90c1e55d8&gt;/public_html/design/MediaStore/js/product.js" />
-        <option value="&lt;0cdc594c-4f2a-4669-a530-7925162d47a7&gt;/public_html/design/MediaStore/css/template_styles.css" />
-        <option value="&lt;0cdc594c-4f2a-4669-a530-7925162d47a7&gt;/public_html/design/MediaStore/html/product.tpl" />
-        <option value="&lt;0cdc594c-4f2a-4669-a530-7925162d47a7&gt;/public_html/design/MediaStore/js/product.js" />
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya1/design/juno/html/wishlist_informer.tpl" />
-        <option value="&lt;15155620-9a51-46d3-b574-3bbabf642c41&gt;/agency-ri.com/newgm/design/newgm/css/style.css" />
         <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/html/callback.tpl" />
         <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/html/callback2.tpl" />
         <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/html/send_message.tpl" />
@@ -183,9 +150,17 @@
         <option value="$PROJECT_DIR$/css/normolize.css" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="&lt;c7aef68d-5e85-4c22-973e-8786f22e593f&gt;/tkani.kr.ua/www/design/carol/html/index.tpl" />
+        <option value="&lt;c7aef68d-5e85-4c22-973e-8786f22e593f&gt;/tkani.kr.ua/www/design/carol/html/product.tpl" />
+        <option value="&lt;c7aef68d-5e85-4c22-973e-8786f22e593f&gt;/tkani.kr.ua/www/design/carol/css/style.css" />
+        <option value="&lt;c7aef68d-5e85-4c22-973e-8786f22e593f&gt;/tkani.kr.ua/www/design/carol/html/cart_purchases.tpl" />
+        <option value="&lt;c7aef68d-5e85-4c22-973e-8786f22e593f&gt;/tkani.kr.ua/www/design/carol/html/svg_sprite.tpl" />
+        <option value="&lt;c7aef68d-5e85-4c22-973e-8786f22e593f&gt;/tkani.kr.ua/www/design/carol/html/cart_informer.tpl" />
+        <option value="&lt;c7aef68d-5e85-4c22-973e-8786f22e593f&gt;/tkani.kr.ua/www/design/carol/js/okay.js" />
+        <option value="&lt;c7aef68d-5e85-4c22-973e-8786f22e593f&gt;/tkani.kr.ua/www/ajax/cart_ajax.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -356,7 +331,7 @@
       <workItem from="1497258599668" duration="6000" />
       <workItem from="1497258606535" duration="2688000" />
       <workItem from="1504872397328" duration="67000" />
-      <workItem from="1504872465819" duration="159630000" />
+      <workItem from="1504872465819" duration="182766000" />
     </task>
     <task id="LOCAL-00001" summary="added div">
       <created>1497097330318</created>
@@ -498,11 +473,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505571881754</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="pics added">
+      <created>1505736401434</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1505736401434</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171378000" />
+    <option name="totallyTimeSpent" value="194514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,8 +505,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -584,7 +566,8 @@
     <MESSAGE value="50Xerror link added to main index.html" />
     <MESSAGE value="500.html" />
     <MESSAGE value="20170916" />
-    <option name="LAST_COMMIT_MESSAGE" value="20170916" />
+    <MESSAGE value="pics added" />
+    <option name="LAST_COMMIT_MESSAGE" value="pics added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,14 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -742,17 +717,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="87">
           <caret line="162" column="28" lean-forward="false" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -762,6 +737,14 @@
             <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
