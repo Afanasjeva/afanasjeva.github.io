@@ -2,6 +2,9 @@
     .grid_item{
         width: 25%;
     }
+    body{
+        font-size: 18px;
+    }
 }
 @media (max-width: 768px){
     .grid_item{
