@@ -1,0 +1,23 @@
+.info_link{
+    width: 15px;
+    height: 15px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.info_text{
+    display: none;
+}
+.info_text:target{
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
+}
