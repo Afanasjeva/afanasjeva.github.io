@@ -152,4 +152,8 @@ body{
     height: 20px;
     display: inline-block;
     text-shadow: 1px 1px 1px #333;
+    transition: .3s;
+}
+.color_link:hover i{
+    transform: rotate(445deg);
 }
