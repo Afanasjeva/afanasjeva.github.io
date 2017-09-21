@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df17f5cb-08cf-45fb-af62-82902d9787e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_gentsclub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skills.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,33 +23,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;5a05ac88-cb9f-4c8b-8a29-51c9bad98ac8&gt;/public_html/design/newgm/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2169">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="421">
+              <caret line="2231" column="0" lean-forward="true" selection-start-line="2231" selection-start-column="0" selection-end-line="2231" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="product.tpl" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;5a05ac88-cb9f-4c8b-8a29-51c9bad98ac8&gt;/public_html/design/newgm/html/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="253" column="58" lean-forward="false" selection-start-line="253" selection-start-column="58" selection-end-line="253" selection-end-column="58" />
+            <state relative-caret-position="165">
+              <caret line="204" column="44" lean-forward="false" selection-start-line="204" selection-start-column="36" selection-end-line="204" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.tpl" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;5a05ac88-cb9f-4c8b-8a29-51c9bad98ac8&gt;/public_html/design/newgm/html/scripts.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="3292" column="17" lean-forward="false" selection-start-line="3292" selection-start-column="17" selection-end-line="3292" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="okay.js" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;5a05ac88-cb9f-4c8b-8a29-51c9bad98ac8&gt;/public_html/design/newgm/js/okay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,16 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>amount</find>
-      <find>er.tpl</find>
-      <find>popup_cart</find>
-      <find>ajax_chan</find>
-      <find>h1</find>
-      <find>_item</find>
-      <find>clearfix</find>
-      <find>paramsBox</find>
-      <find>amera</find>
-      <find>cog</find>
       <find>dn</find>
       <find>#fn-search</find>
       <find>.account</find>
@@ -100,6 +106,16 @@
       <find>arra</find>
       <find>events</find>
       <find>link</find>
+      <find>.phone_foot</find>
+      <find>slick</find>
+      <find>dots: true</find>
+      <find>masked</find>
+      <find>consult_form_input</find>
+      <find>rgb(172, 108, 130)</find>
+      <find>media</find>
+      <find>sha</find>
+      <find>fn_share</find>
+      <find>fn_so</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,10 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya1/design/juno/css/style.css" />
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya1/design/juno/css/responsive.css" />
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya1/design/juno/html/main.tpl" />
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya1/design/juno/js/okay.js" />
         <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/html/products.tpl" />
         <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona/html/products_content.tpl" />
         <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/html/products_content.tpl" />
@@ -125,8 +137,6 @@
         <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/css/style.css" />
         <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/css/responsive.css" />
         <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/html/index.tpl" />
-        <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/css/style.css" />
-        <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/html/main.tpl" />
         <option value="&lt;0ed477f4-89df-4c4f-85c6-48d27a3f9ad1&gt;/public_html/design/hype/html/page_50X.tpl" />
         <option value="&lt;0ed477f4-89df-4c4f-85c6-48d27a3f9ad1&gt;/public_html/.htaccess" />
         <option value="&lt;0ed477f4-89df-4c4f-85c6-48d27a3f9ad1&gt;/public_html/index.php" />
@@ -156,9 +166,15 @@
         <option value="$PROJECT_DIR$/projects/tooltips/index.tpl" />
         <option value="$PROJECT_DIR$/projects/tooltips/style.css" />
         <option value="$PROJECT_DIR$/projects/tooltips/index.html" />
-        <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/js/script.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="&lt;3ef3406a-cb82-40d6-82ac-de8eff5d7240&gt;/www/1001parfums.ru/design/sm_lite_work/css/style.css" />
+        <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/js/script.js" />
+        <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/html/main.tpl" />
+        <option value="&lt;7adfe971-8379-4aa6-8452-d5048aec59dc&gt;/design/prime_watches/css/mobile.css" />
+        <option value="&lt;5a05ac88-cb9f-4c8b-8a29-51c9bad98ac8&gt;/public_html/design/newgm/html/product.tpl" />
+        <option value="&lt;5a05ac88-cb9f-4c8b-8a29-51c9bad98ac8&gt;/public_html/design/newgm/css/style.css" />
+        <option value="&lt;4a37001c-eb06-420a-a07d-fb5312bb4791&gt;/migis.org/www/design/migis_2017/css/style.css" />
       </list>
     </option>
   </component>
@@ -325,7 +341,7 @@
       <workItem from="1497258599668" duration="6000" />
       <workItem from="1497258606535" duration="2688000" />
       <workItem from="1504872397328" duration="67000" />
-      <workItem from="1504872465819" duration="207827000" />
+      <workItem from="1504872465819" duration="213381000" />
     </task>
     <task id="LOCAL-00001" summary="added div">
       <created>1497097330318</created>
@@ -523,11 +539,25 @@
       <option name="project" value="LOCAL" />
       <updated>1505978149444</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="gentsclub added">
+      <created>1505980740485</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1505980740485</updated>
+    </task>
+    <task id="LOCAL-00030" summary="a">
+      <created>1505980876339</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1505980876339</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219575000" />
+    <option name="totallyTimeSpent" value="225129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,7 +579,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -617,7 +647,9 @@
     <MESSAGE value="grayscaled color icons" />
     <MESSAGE value="articles 2" />
     <MESSAGE value="pic 50X" />
-    <option name="LAST_COMMIT_MESSAGE" value="pic 50X" />
+    <MESSAGE value="gentsclub added" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -888,14 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2169">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -913,6 +937,14 @@
             <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
