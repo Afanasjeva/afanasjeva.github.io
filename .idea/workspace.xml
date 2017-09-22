@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df17f5cb-08cf-45fb-af62-82902d9787e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/project_css_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/css_arrows/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/css_arrows/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/css_arrows/style.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/sliding_blocks/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/sliding_blocks/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/sliding_blocks/js/script.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/sticky_sidebar/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/sticky_sidebar/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/sticky_sidebar/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Retro-Texture-Wallpapers-14.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -30,57 +27,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/css_arrows/index.html">
+      <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;19adbd33-e91a-457b-ab84-1e4e596e62f5&gt;/design/new_year_2/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="2281">
+              <caret line="2692" column="0" lean-forward="false" selection-start-line="2692" selection-start-column="0" selection-end-line="2692" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="our.js" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;19adbd33-e91a-457b-ab84-1e4e596e62f5&gt;/design/new_year_2/js/our.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="55" column="97" lean-forward="false" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
+              <folding>
+                <marker date="0" expanded="false" signature="741:1584" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/sticky_sidebar/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/css_arrows/script.js">
+        <entry file="file://$PROJECT_DIR$/projects/sticky_sidebar/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="34">
+              <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="248" column="75" lean-forward="false" selection-start-line="248" selection-start-column="75" selection-end-line="248" selection-end-column="75" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/css_arrows/style.css">
+        <entry file="file://$PROJECT_DIR$/projects/sticky_sidebar/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="348">
+              <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -97,10 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>puzzle-piece</find>
-      <find>pixsell</find>
-      <find>circle</find>
-      <find>colors_title</find>
       <find>-o-notch</find>
       <find>body</find>
       <find>grid_item_menu</find>
@@ -127,6 +116,10 @@
       <find>color3_bg</find>
       <find>vk</find>
       <find>scrollUp:hover</find>
+      <find>form va</find>
+      <find>sidebar_banners_section</find>
+      <find>footer</find>
+      <find>aside-banners-block</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,11 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/html/features.tpl" />
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/js/okay.js" />
-        <option value="&lt;64eee9b1-2d3b-4d29-b4bc-3d0702cb4e7e&gt;/www/vitrazhy.pro/design/imperstroy_1/html/main.tpl" />
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/css/style.css" />
-        <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/css/responsive.css" />
         <option value="&lt;aa6531ec-aadf-4f3f-8dcd-f42c49aa66f1&gt;/simplamarket.pro/elamiya2/design/verona_1/html/index.tpl" />
         <option value="&lt;0ed477f4-89df-4c4f-85c6-48d27a3f9ad1&gt;/public_html/design/hype/html/page_50X.tpl" />
         <option value="&lt;0ed477f4-89df-4c4f-85c6-48d27a3f9ad1&gt;/public_html/.htaccess" />
@@ -186,6 +174,11 @@
         <option value="$PROJECT_DIR$/projects/css_arrows/index.html" />
         <option value="$PROJECT_DIR$/projects/css_arrows/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="&lt;19adbd33-e91a-457b-ab84-1e4e596e62f5&gt;/design/new_year_2/css/style.css" />
+        <option value="$PROJECT_DIR$/projects/sticky_sidebar/index.html" />
+        <option value="$PROJECT_DIR$/projects/sticky_sidebar/style.css" />
+        <option value="$PROJECT_DIR$/projects/sticky_sidebar/script.js" />
+        <option value="&lt;19adbd33-e91a-457b-ab84-1e4e596e62f5&gt;/design/new_year_2/js/our.js" />
       </list>
     </option>
   </component>
@@ -235,18 +228,13 @@
             <path>
               <item name="afanasjeva.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="afanasjeva.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="afanasjeva.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="afanasjeva.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="projects" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="afanasjeva.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="afanasjeva.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="projects" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css_arrows" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sticky_sidebar" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -363,7 +351,7 @@
       <workItem from="1497258599668" duration="6000" />
       <workItem from="1497258606535" duration="2688000" />
       <workItem from="1504872397328" duration="67000" />
-      <workItem from="1504872465819" duration="225878000" />
+      <workItem from="1504872465819" duration="233542000" />
     </task>
     <task id="LOCAL-00001" summary="added div">
       <created>1497097330318</created>
@@ -582,11 +570,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505993108877</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="css arrows project added">
+      <created>1506072571650</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1506072571650</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237626000" />
+    <option name="totallyTimeSpent" value="245290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,8 +602,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -678,7 +673,8 @@
     <MESSAGE value="pic 50X" />
     <MESSAGE value="gentsclub added" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="css arrows project added" />
+    <option name="LAST_COMMIT_MESSAGE" value="css arrows project added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -941,26 +937,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skills.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/css_arrows/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -981,10 +961,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/css_arrows/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="248" column="75" lean-forward="false" selection-start-line="248" selection-start-column="75" selection-end-line="248" selection-end-column="75" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -996,12 +992,35 @@
             <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sticky_sidebar/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sticky_sidebar/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sticky_sidebar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
