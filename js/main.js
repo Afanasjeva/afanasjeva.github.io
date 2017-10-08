@@ -48,5 +48,4 @@ $(function(){
         distance: '10px',
         opacity: 1,
     });*/
-
 });

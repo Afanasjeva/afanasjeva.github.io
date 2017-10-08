@@ -1,0 +1,14 @@
+body {
+  background: #bc3135;
+  padding: 0;
+  font-family: 'Comfortaa', 'Century Gothic', Arial;
+  color: #0a284c;
+  font-size: 14px; }
+
+h1 {
+  margin: 15px auto;
+  border: 1px dotted inherit; }
+
+h2 {
+  margin: 15px auto;
+  color: yellow; }
