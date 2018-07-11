@@ -124,6 +124,7 @@ body{
     overflow: hidden;
     color: var(--color_main);
     font-size: 1.7rem;
+    text-align: center;
 }
 .images_container.mod_carbon_bkg{
     background:
