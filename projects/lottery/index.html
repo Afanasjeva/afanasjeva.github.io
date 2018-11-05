@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lottery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="inner">
+    <section class="winners">
+        <h1 class="winners-title">Winners:</h1>
+        <button id="winners-btn" class="winners-btn btn">New winner</button>
+        <div id="winners" class="winners-block"></div>
+    </section>
+    <form action="" id="form">
+        <div class="form-inner">
+            <h2 class="form-title">Registration form</h2>
+            <fieldset>
+                <Label>Name:</Label>
+                <input required type="text" id='name' pattern="[A-Za-z]{1,30}" title="Only latin letters are accepted. Length sholud be less then  30 symbols">
+            </fieldset>
+            <fieldset>
+                <Label>Surname:</Label>
+                <input required type="text" id='surname' pattern="[A-Za-z]{1,30}" title="Only latin letters are accepted. Length sholud be less then  30 symbols">
+            </fieldset>
+            <fieldset>
+                <Label>Email:</Label>
+                <input required type="email" id='email'>
+            </fieldset>
+            <fieldset>
+                <Label>Phone:</Label>
+                <input type="text" id='phone' pattern="[+0-9]{13}" title="Phone number should be 13 symbols '+38xxxxxxxxxx'">
+            </fieldset>
+            <fieldset>
+                <Label>Birthday:</Label>
+                <input type="date" id='birthday'>
+            </fieldset>
+        </div>
+        <button type="submit" class="form-btn btn">Save</button>
+    </form>
+    <section class="users" id="users">
+        <div class="users-header">
+            <div class="users-title">Name</div>
+            <div class="users-title">Surname</div>
+            <div class="users-title">Email</div>
+            <div class="users-title">Phone</div>
+            <div class="users-title">Birthday</div>
+        </div>
+    </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

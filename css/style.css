@@ -135,6 +135,37 @@ body{
     background-color:#282828;
     background-size:16px 16px;
 }
+.images_container.mod_carbon_color_bkg{
+    background:
+            radial-gradient(black 15%, transparent 16%) 0 0,
+            radial-gradient(black 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:var(--color_main);
+    background-size:16px 16px;
+}
+.images_container.mod_marrakesh_bkg{
+    background-color:#ccc;
+    background-image:
+            radial-gradient(var(--color_main) 9px, transparent 10px),
+            repeating-radial-gradient(var(--color_main) 0, var(--color_main) 4px, transparent 5px, transparent 20px, var(--color_main) 21px, var(--color_main) 25px, transparent 26px, transparent 50px);
+    background-size: 30px 30px, 90px 90px;
+    background-position: 0 0;
+}
+.images_container.mod_shippo_bkg{
+    background-color:#def;
+    background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+    radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+    background-size:80px 80px;
+    background-position:0 0, 40px 40px;
+}
+.images_container.mod_waves{
+    background:
+            radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+            radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: slategray;
+    background-size:75px 100px;
+}
 .image{
     min-width: 100%;
     filter: grayscale(100%);

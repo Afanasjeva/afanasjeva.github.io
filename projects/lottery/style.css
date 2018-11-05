@@ -1,0 +1,168 @@
+.inner{
+    width: 660px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.btn{
+    padding: 4px 25px;
+    font-size: 14px;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: .25s ease;
+}
+.winners .delete-btn{
+    display: none;
+}
+.delete-btn{
+    color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 3px;
+    cursor: pointer;
+}
+.edit-btn{
+    color: blue;
+    position: absolute;
+    top: 20px;
+}
+.btn:hover{
+    background: #ccc;
+}
+.winners{
+    border: 1px solid black;
+    position: relative;
+    margin: 0 0 50px;
+}
+.winners-title{
+    padding: 0 20px;
+}
+.winners-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+form{
+    position: relative;
+    margin: 0 0 50px;
+    padding: 0 0 50px;
+}
+.form-inner{
+    border: 1px solid #000;
+    padding: 20px;
+}
+.form-title{
+    text-align: center;
+}
+fieldset{
+    border: none;
+    padding: 10px 20px;
+}
+label{
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+    padding: 0 20px 0 0;
+    box-sizing: border-box;
+}
+input{
+    width: 68%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+.form-btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.users{
+    display: table;
+    width: 100%;
+    border: 1px solid black;
+}
+.users-header{
+    display: table-row;
+    border-bottom: 1px solid black;
+}
+.users-title{
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.users-title:last-of-type{
+    border-right: none;
+}
+.users .user-row{
+    display: table-row;
+}
+.users .user-row div{
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+.users .user-row div:last-of-type{
+    border-right: none;
+}
+.winners-block{
+    display: table;
+    width: 100%;
+}
+.winners-block .user-row{
+    display: table-row;
+}
+.winners-block .user-row div{
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.winners-block .user-row:last-of-type div{
+    border-bottom: none;
+}
+@media screen and (max-width: 800px){
+    .users{
+        display: block;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .users-header{
+        display: none;
+    }
+    .users .user-row{
+        display: block;
+        border-bottom: 1px solid black;
+    }
+    .users .user-row:last-of-type{
+        border-bottom: none;
+    }
+    .users .user-row div{
+        display: inline-block;
+        padding: 10px;
+        text-align: left;
+        border-right: none;
+        border-top: none;
+    }
+    .winners-block{
+        display: block;
+        width: 100%;
+    }
+    .winners-block .user-row{
+        display: block;
+        border-bottom: 1px solid black;
+    }
+    .winners-block .user-row:last-of-type{
+        border-bottom: none;
+    }
+    .winners-block .user-row div{
+        display: inline-block;
+        padding: 10px;
+        text-align: left;
+        border-bottom: none;
+    }
+}
