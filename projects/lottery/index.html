@@ -48,8 +48,40 @@
             <div class="users-title">Email</div>
             <div class="users-title">Phone</div>
             <div class="users-title">Birthday</div>
+            <div class="users-title">Edit/Delete</div>
         </div>
     </section>
+</div>
+<div class="edit-popup" id="edit-popup">
+    <div class="edit-popup-inner">
+        <a href="javascript:;" class="edit-popup-close-btn" id="edit-close">&times;</a>
+        <form action="" id="edit-form">
+            <div class="edit-form-inner">
+                <h2 class="form-title">Edit user information</h2>
+                <fieldset>
+                    <Label>Name:</Label>
+                    <input required type="text" id='edit-name' pattern="[A-Za-z]{1,30}" title="Only latin letters are accepted. Length sholud be less then  30 symbols">
+                </fieldset>
+                <fieldset>
+                    <Label>Surname:</Label>
+                    <input required type="text" id='edit-surname' pattern="[A-Za-z]{1,30}" title="Only latin letters are accepted. Length sholud be less then  30 symbols">
+                </fieldset>
+                <fieldset>
+                    <Label>Email:</Label>
+                    <input required type="email" id='edit-email'>
+                </fieldset>
+                <fieldset>
+                    <Label>Phone:</Label>
+                    <input type="text" id='edit-phone' pattern="[+0-9]{13}" title="Phone number should be 13 symbols '+38xxxxxxxxxx'">
+                </fieldset>
+                <fieldset>
+                    <Label>Birthday:</Label>
+                    <input type="date" id='edit-birthday'>
+                </fieldset>
+            </div>
+            <button type="submit" class="form-btn btn">Save</button>
+        </form>
+    </div>
 </div>
 <script src="app.js"></script>
 </body>
