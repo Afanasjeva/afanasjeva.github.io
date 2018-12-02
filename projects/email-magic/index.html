@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email magic</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v2/smtp.js">
+    </script>
+</head>
+<body>
+<form action="" id="form">
+    <input type="text" class="emailPart">
+    <input type="text" class="emailPart">
+    <input type="text" class="emailPart">
+    <button type="submit">Submit</button>
+    <hr>
+    <span>Generated emal: </span>
+    <input type="text" id="generatedEmail">
+    <button id="send">SEND</button>
+</form>
+<script>
+//HINT! go to the https://smtpjs.com/
+//Service not available, closing transmission channel. The server response was: 4671a8a6-9023-43b3-bcc1-c6cfa50946c1
+// Error: 421 Error: Daily limit exceeded. Please fill out your profile to have this daily limit removed.
+$(function(){
+    var $body = document.querySelector('body');
+    var $form = document.getElementById('form');
+    var $emailParts = document.querySelectorAll('.emailPart');
+    var $generatedEmail = document.getElementById('generatedEmail');
+    var generatedEmail = '';
+
+    $form.addEventListener('submit', function(ev){
+        ev.preventDefault();
+
+        $emailParts.forEach(function(el){
+            generatedEmail = generatedEmail + el.value;
+        });
+
+        $generatedEmail.value = generatedEmail;
+
+        generatedEmail = '';
+        $emailParts.forEach(function(el){
+            el.value = '';
+        });
+        $send.focus();
+    });
+
+    var $send = $('#send');
+
+
+    function sendMail() {
+        var from = 'tatjana.afanasjeva@gmail.com';
+        var to = 'tatjana.afanasjeva@gmail.com';
+        var subject = 'subject';
+        var body = $generatedEmail.value;
+        var smtp = 'smtp.elasticemail.com';
+        var username = 'tatjana.afanasjeva@gmail.com';
+        var password = ' ddd40001-d737-4385-a26c-588f3f079008';
+
+        Email.send(
+            from,
+            to,
+            subject,
+            body,
+            {token: "2217a9ec-129e-40e2-a7f1-c685ac12edf0"},
+            function done(message) { alert("sent", message) }  );
+    }
+
+    $send.on('click', function(){
+        sendMail();
+        $emailParts[0].focus();
+    });
+});
+
+</script>
+</body>
+</html>
