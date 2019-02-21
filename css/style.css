@@ -1,5 +1,6 @@
 :root{
    --color_main: #ffed27;
+   --color-carbon: #282828;
 }
 body{
     font-family: 'Roboto Mono';
@@ -132,7 +133,7 @@ body{
             radial-gradient(black 15%, transparent 16%) 8px 8px,
             radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
             radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-    background-color:#282828;
+    background-color:var(--color-carbon);
     background-size:16px 16px;
 }
 .images_container.mod_carbon_color_bkg{
@@ -153,9 +154,16 @@ body{
     background-position: 0 0;
 }
 .images_container.mod_shippo_bkg{
-    background-color:#def;
+    background-color:var(--color-carbon);
     background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
     radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+    background-size:80px 80px;
+    background-position:0 0, 40px 40px;
+}
+.images_container.mod_shippo_color_bkg{
+    background-color:var(--color-carbon);
+    background-image: radial-gradient(closest-side, transparent 98%, yellow 99%),
+    radial-gradient(closest-side, transparent 98%, yellow 99%);
     background-size:80px 80px;
     background-position:0 0, 40px 40px;
 }
@@ -163,7 +171,7 @@ body{
     background:
             radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
             radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
-    background-color: slategray;
+    background-color: var(--color-carbon);
     background-size:75px 100px;
 }
 .image{
