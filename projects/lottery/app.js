@@ -137,3 +137,11 @@ var EditPopup = function () {
   this.init();
 };
 var editPopup = new EditPopup();
+
+var counterBtn = document.getElementById('counterBtn');
+var counterDiv = document.getElementById('counterDiv');
+var counter = 0;
+
+counterBtn.addEventListener('click', function(){
+  counterDiv.innerHTML = ++counter;
+});
